@@ -93,3 +93,8 @@ button:hover{
     background-color:#c94f4f;
     transform:scale(1.05);
 }
+
+.inicio p{
+    color: grey;
+}
+    

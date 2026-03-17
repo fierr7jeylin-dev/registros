@@ -11,8 +11,8 @@
 <header>
     <nav class="navbar">
         <ul>
-            <li><a href="./index.html">Inicio</a>
-            <li><a href="./registro.html">Registro</a>
+            <li><a href="./index.html">registro</a>
+            <li><a href="./registro.html">inicio</a>
             </li>
         </ul>
     </nav>
@@ -23,15 +23,23 @@
 
 <body>
     <div class="inicio"> 
-        <h1>¡Bienvenido al Curso!</h1>
+        <h1>Registro Adso!</h1>
+         
+        <p>Este es el primer filtro del ingreso,  no te desesperes, 
+            vamos a responder unas reguntas antes de seguir </p>
 
 
-        <label for="nombre">Ingesa tu nombre:</label>
-        <input type="text" id="nombre" placeholder="Tu Nombre va Aquí"> 
+        <label for="usuario">Ingesa tu usuario asignado:</label>
+        <input type="text" id="usuario" placeholder="Tu Usuario va Aquí"> 
+
+        <br>
+        <br>
+         <label for="pasword">Ingesa tu contraseña asignada:</label>
+        <input type="number" id="pasword" placeholder="Tu Password va Aquí"> 
 
 
-        <button onclick="verificar()">Enviar</button>
-        <p id="resultado" style="margin-top: 16px; font-weight: bold; color: black;"></p>
+        <button onclick="ingresar()">Enviar</button>
+        <p id="mensaje" style="margin-top: 16px; font-weight: bold; color: black;"></p>
 </div>
 
 
